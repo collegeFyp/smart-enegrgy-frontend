@@ -1,0 +1,27 @@
+.FloatingActionButton {
+  z-index: 200px;
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.FloatingActionButton div {
+  border-radius: 1000px;
+  box-sizing: border-box;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid #eee;
+  box-shadow: 2px 3px #ccc;
+  background-color: #343a40;
+}
+
+.FloatingActionButton div:hover {
+  border-radius: 1000px;
+  background-color: #292d30;
+  /* background-color: blanchedalmond; */
+}

@@ -1,0 +1,12 @@
+.Span {
+  color: tomato;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20;
+}
+.Logo {
+  padding: 10px;
+  color: blue;
+  border: 1px solid tomato;
+}

@@ -1,0 +1,45 @@
+.Nav {
+  border-bottom: 1px solid tomato;
+  z-index: 150;
+}
+.Bars {
+  color: aliceblue;
+  font-size: 30px;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 10px;
+  z-index: 100;
+}
+.Bars:hover {
+  color: grey;
+}
+
+.Action {
+  font-size: 20;
+  color: white;
+  font-weight: bolder;
+}
+.Action:hover {
+  color: grey;
+}
+.SideNav {
+  left: 0;
+  position: fixed;
+  box-sizing: border-box;
+  height: 100%;
+  width: 300px;
+  z-index: 300;
+  background-color: #343a40;
+  margin-top: 3px;
+  transition: width 1s;
+  border-right: 1px solid tomato;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  width: 0px;
+  transform: translateX(-100);
+}

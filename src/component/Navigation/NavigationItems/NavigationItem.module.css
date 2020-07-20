@@ -1,0 +1,23 @@
+.NavigationItems {
+  box-sizing: border-box;
+  width: auto;
+  color: ivory;
+  border: 1px solid tomato;
+  margin: 5px 0px;
+  overflow-x: hidden;
+  text-align: center;
+  padding: 20px 0px;
+  color: aliceblue;
+}
+.NavigationItems a {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 900;
+}
+.active,
+.NavigationItems:hover {
+  background-color: tomato;
+}
+
+/* .NavigationItems:hover a {
+} */

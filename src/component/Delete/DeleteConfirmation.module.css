@@ -1,0 +1,18 @@
+.DeleteDevice {
+  display: block;
+}
+.DeleteDeviceTitle {
+  text-shadow: black;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 80px;
+}
+
+.DeleteDeviceChild {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+}

@@ -1,0 +1,84 @@
+.Device {
+  /* background-color: black; */
+  padding: 20px;
+  border: 2px solid #eee;
+  box-shadow: 3px 4px #ccc;
+  margin: 10px;
+}
+.Name {
+  justify-self: center;
+  text-align: center;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.Active {
+  box-shadow: 3px 4px rgb(244, 247, 103);
+}
+
+.Switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.Switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.Slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.Slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .Slider {
+  background-color: #2196f3;
+}
+
+input:focus + .Slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .Slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.Slider.Round {
+  border-radius: 34px;
+}
+
+.Slider.Round:before {
+  border-radius: 50%;
+}
+.Spinner {
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+}
